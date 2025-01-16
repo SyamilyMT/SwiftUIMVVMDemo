@@ -1,0 +1,12 @@
+[
+  {
+    "city": "Sydney", 
+    "lat": "-33.8678", 
+    "lng": "151.2100", 
+    "country": "Australia", 
+    "iso2": "AU", 
+    "admin_name": "New South Wales", 
+    "capital": "admin", 
+    "population": "4840600", 
+    "population_proper": "4840600"
+  ]

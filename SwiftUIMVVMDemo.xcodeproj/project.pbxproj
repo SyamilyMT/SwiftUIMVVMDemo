@@ -8,12 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		1199F46B2D30EB1C0058CEA7 /* SwiftUIMVVMDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1199F46A2D30EB1C0058CEA7 /* SwiftUIMVVMDemoApp.swift */; };
-		1199F46D2D30EB1C0058CEA7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1199F46C2D30EB1C0058CEA7 /* ContentView.swift */; };
 		1199F46F2D30EB1F0058CEA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1199F46E2D30EB1F0058CEA7 /* Assets.xcassets */; };
 		1199F4722D30EB1F0058CEA7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1199F4712D30EB1F0058CEA7 /* Preview Assets.xcassets */; };
 		1199F47C2D30EB1F0058CEA7 /* SwiftUIMVVMDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1199F47B2D30EB1F0058CEA7 /* SwiftUIMVVMDemoTests.swift */; };
 		1199F4862D30EB1F0058CEA7 /* SwiftUIMVVMDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1199F4852D30EB1F0058CEA7 /* SwiftUIMVVMDemoUITests.swift */; };
 		1199F4882D30EB1F0058CEA7 /* SwiftUIMVVMDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1199F4872D30EB1F0058CEA7 /* SwiftUIMVVMDemoUITestsLaunchTests.swift */; };
+		1199F49B2D30F2960058CEA7 /* au_cities.json in Resources */ = {isa = PBXBuildFile; fileRef = 1199F49A2D30F2960058CEA7 /* au_cities.json */; };
+		1199F49C2D30F2960058CEA7 /* au_cities.json in Resources */ = {isa = PBXBuildFile; fileRef = 1199F49A2D30F2960058CEA7 /* au_cities.json */; };
+		1199F49D2D30F2960058CEA7 /* au_cities.json in Resources */ = {isa = PBXBuildFile; fileRef = 1199F49A2D30F2960058CEA7 /* au_cities.json */; };
+		1199F4A52D31376B0058CEA7 /* StateListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1199F4A42D31376B0058CEA7 /* StateListView.swift */; };
+		1199F4A92D3138D60058CEA7 /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1199F4A82D3138D60058CEA7 /* City.swift */; };
+		1199F4AB2D313D0D0058CEA7 /* CityRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1199F4AA2D313D0D0058CEA7 /* CityRow.swift */; };
+		1199F4AD2D313E620058CEA7 /* StateListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1199F4AC2D313E620058CEA7 /* StateListViewModel.swift */; };
+		1199F4AF2D31422D0058CEA7 /* CityItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1199F4AE2D31422D0058CEA7 /* CityItemViewModel.swift */; };
+		1199F4B12D3437AE0058CEA7 /* StateItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1199F4B02D3437AE0058CEA7 /* StateItemViewModel.swift */; };
+		1199F4B42D3580F90058CEA7 /* StateListViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1199F4B32D3580F90058CEA7 /* StateListViewModelTests.swift */; };
+		1199F4B92D3638FD0058CEA7 /* au_cities_1.json in Resources */ = {isa = PBXBuildFile; fileRef = 1199F4B82D3638FD0058CEA7 /* au_cities_1.json */; };
+		1199F4BA2D36513D0058CEA7 /* au_cities_1.json in Resources */ = {isa = PBXBuildFile; fileRef = 1199F4B82D3638FD0058CEA7 /* au_cities_1.json */; };
+		1199F4BC2D3664AE0058CEA7 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1199F4BB2D3664AE0058CEA7 /* Utility.swift */; };
+		1199F4BF2D3668C10058CEA7 /* UtilityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1199F4BE2D3668C10058CEA7 /* UtilityTests.swift */; };
+		1199F4C12D376CFA0058CEA7 /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1199F4C02D376CFA0058CEA7 /* AppConstants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +50,6 @@
 /* Begin PBXFileReference section */
 		1199F4672D30EB1C0058CEA7 /* SwiftUIMVVMDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIMVVMDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1199F46A2D30EB1C0058CEA7 /* SwiftUIMVVMDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIMVVMDemoApp.swift; sourceTree = "<group>"; };
-		1199F46C2D30EB1C0058CEA7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1199F46E2D30EB1F0058CEA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1199F4712D30EB1F0058CEA7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1199F4772D30EB1F0058CEA7 /* SwiftUIMVVMDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUIMVVMDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +57,18 @@
 		1199F4812D30EB1F0058CEA7 /* SwiftUIMVVMDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUIMVVMDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1199F4852D30EB1F0058CEA7 /* SwiftUIMVVMDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIMVVMDemoUITests.swift; sourceTree = "<group>"; };
 		1199F4872D30EB1F0058CEA7 /* SwiftUIMVVMDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIMVVMDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1199F49A2D30F2960058CEA7 /* au_cities.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = au_cities.json; sourceTree = "<group>"; };
+		1199F4A42D31376B0058CEA7 /* StateListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateListView.swift; sourceTree = "<group>"; };
+		1199F4A82D3138D60058CEA7 /* City.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
+		1199F4AA2D313D0D0058CEA7 /* CityRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityRow.swift; sourceTree = "<group>"; };
+		1199F4AC2D313E620058CEA7 /* StateListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateListViewModel.swift; sourceTree = "<group>"; };
+		1199F4AE2D31422D0058CEA7 /* CityItemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityItemViewModel.swift; sourceTree = "<group>"; };
+		1199F4B02D3437AE0058CEA7 /* StateItemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateItemViewModel.swift; sourceTree = "<group>"; };
+		1199F4B32D3580F90058CEA7 /* StateListViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateListViewModelTests.swift; sourceTree = "<group>"; };
+		1199F4B82D3638FD0058CEA7 /* au_cities_1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = au_cities_1.json; sourceTree = "<group>"; };
+		1199F4BB2D3664AE0058CEA7 /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		1199F4BE2D3668C10058CEA7 /* UtilityTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilityTests.swift; sourceTree = "<group>"; };
+		1199F4C02D376CFA0058CEA7 /* AppConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +120,10 @@
 			isa = PBXGroup;
 			children = (
 				1199F46A2D30EB1C0058CEA7 /* SwiftUIMVVMDemoApp.swift */,
-				1199F46C2D30EB1C0058CEA7 /* ContentView.swift */,
+				1199F4BB2D3664AE0058CEA7 /* Utility.swift */,
+				1199F4C02D376CFA0058CEA7 /* AppConstants.swift */,
+				1199F4942D30F16A0058CEA7 /* Modules */,
+				1199F4992D30F1FD0058CEA7 /* Resources */,
 				1199F46E2D30EB1F0058CEA7 /* Assets.xcassets */,
 				1199F4702D30EB1F0058CEA7 /* Preview Content */,
 			);
@@ -113,7 +141,10 @@
 		1199F47A2D30EB1F0058CEA7 /* SwiftUIMVVMDemoTests */ = {
 			isa = PBXGroup;
 			children = (
+				1199F4BD2D3668870058CEA7 /* Resources */,
+				1199F4B22D3580BF0058CEA7 /* StatesTests */,
 				1199F47B2D30EB1F0058CEA7 /* SwiftUIMVVMDemoTests.swift */,
+				1199F4BE2D3668C10058CEA7 /* UtilityTests.swift */,
 			);
 			path = SwiftUIMVVMDemoTests;
 			sourceTree = "<group>";
@@ -125,6 +156,75 @@
 				1199F4872D30EB1F0058CEA7 /* SwiftUIMVVMDemoUITestsLaunchTests.swift */,
 			);
 			path = SwiftUIMVVMDemoUITests;
+			sourceTree = "<group>";
+		};
+		1199F4942D30F16A0058CEA7 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				1199F4A02D31372E0058CEA7 /* States */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		1199F4992D30F1FD0058CEA7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1199F49A2D30F2960058CEA7 /* au_cities.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		1199F4A02D31372E0058CEA7 /* States */ = {
+			isa = PBXGroup;
+			children = (
+				1199F4A32D3137520058CEA7 /* Model */,
+				1199F4A22D3137480058CEA7 /* ViewModel */,
+				1199F4A12D31373F0058CEA7 /* View */,
+			);
+			path = States;
+			sourceTree = "<group>";
+		};
+		1199F4A12D31373F0058CEA7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1199F4A42D31376B0058CEA7 /* StateListView.swift */,
+				1199F4AA2D313D0D0058CEA7 /* CityRow.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1199F4A22D3137480058CEA7 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				1199F4AC2D313E620058CEA7 /* StateListViewModel.swift */,
+				1199F4B02D3437AE0058CEA7 /* StateItemViewModel.swift */,
+				1199F4AE2D31422D0058CEA7 /* CityItemViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		1199F4A32D3137520058CEA7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1199F4A82D3138D60058CEA7 /* City.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1199F4B22D3580BF0058CEA7 /* StatesTests */ = {
+			isa = PBXGroup;
+			children = (
+				1199F4B32D3580F90058CEA7 /* StateListViewModelTests.swift */,
+			);
+			path = StatesTests;
+			sourceTree = "<group>";
+		};
+		1199F4BD2D3668870058CEA7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1199F4B82D3638FD0058CEA7 /* au_cities_1.json */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,7 +331,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1199F49B2D30F2960058CEA7 /* au_cities.json in Resources */,
 				1199F4722D30EB1F0058CEA7 /* Preview Assets.xcassets in Resources */,
+				1199F4BA2D36513D0058CEA7 /* au_cities_1.json in Resources */,
 				1199F46F2D30EB1F0058CEA7 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -240,6 +342,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1199F4B92D3638FD0058CEA7 /* au_cities_1.json in Resources */,
+				1199F49C2D30F2960058CEA7 /* au_cities.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,6 +351,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1199F49D2D30F2960058CEA7 /* au_cities.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,7 +362,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1199F46D2D30EB1C0058CEA7 /* ContentView.swift in Sources */,
+				1199F4AF2D31422D0058CEA7 /* CityItemViewModel.swift in Sources */,
+				1199F4C12D376CFA0058CEA7 /* AppConstants.swift in Sources */,
+				1199F4AB2D313D0D0058CEA7 /* CityRow.swift in Sources */,
+				1199F4BC2D3664AE0058CEA7 /* Utility.swift in Sources */,
+				1199F4A92D3138D60058CEA7 /* City.swift in Sources */,
+				1199F4B12D3437AE0058CEA7 /* StateItemViewModel.swift in Sources */,
+				1199F4AD2D313E620058CEA7 /* StateListViewModel.swift in Sources */,
+				1199F4A52D31376B0058CEA7 /* StateListView.swift in Sources */,
 				1199F46B2D30EB1C0058CEA7 /* SwiftUIMVVMDemoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -266,6 +378,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1199F4BF2D3668C10058CEA7 /* UtilityTests.swift in Sources */,
+				1199F4B42D3580F90058CEA7 /* StateListViewModelTests.swift in Sources */,
 				1199F47C2D30EB1F0058CEA7 /* SwiftUIMVVMDemoTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -347,7 +461,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -404,7 +518,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -429,6 +543,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -457,6 +572,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
