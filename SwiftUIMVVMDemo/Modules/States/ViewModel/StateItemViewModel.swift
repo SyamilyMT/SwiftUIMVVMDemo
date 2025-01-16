@@ -8,24 +8,20 @@
 import Foundation
 
 class StateItemViewModel: ObservableObject, Identifiable {
-    private var state: StateModel
+    private var stateModel: StateModel
     
-    init(state: StateModel) {
-        self.state = state
+    init(stateModel: StateModel) {
+        self.stateModel = stateModel
     }
     
     var name: String {
-        return state.name
+        return stateModel.name
     }
     
-    var isExpanded: Bool = false {
-        didSet {
-            
-        }
-    }
+    var isExpanded: Bool = false
     
     var citiesViewModel: [CityItemViewModel] {
-        return state.cities.map({CityItemViewModel(city: $0)})
+        return stateModel.cities.map({CityItemViewModel(cityModel: $0)})
     }
 
 }

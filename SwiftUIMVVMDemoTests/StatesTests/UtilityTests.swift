@@ -20,7 +20,7 @@ final class UtilityTests: XCTestCase {
 
     func testLocalJsonPathInvalid() throws {
         do {
-            let _: [City] = try Utility.loadJson("au_citie.json")
+            let _: [CityModel] = try Utility.loadJson("au_citie.json")
         } catch {
             XCTAssertEqual(error as! Utility.JsonParseError, Utility.JsonParseError.invalidPath, "Invalid Json path should be thrown")
         }
@@ -29,7 +29,7 @@ final class UtilityTests: XCTestCase {
     
     func testLocalJsonDataCorrupted() throws {
         do {
-            let _: [City] = try Utility.loadJson("au_cities_1.json")
+            let _: [CityModel] = try Utility.loadJson("au_cities_1.json")
         } catch {
             XCTAssertNotNil(error, "Json corrupted data should be thrown")
         }

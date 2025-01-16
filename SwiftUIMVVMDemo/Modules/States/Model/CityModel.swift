@@ -1,14 +1,13 @@
 //
-//  City.swift
+//  CityModel.swift
 //  SwiftUIMVVMDemo
 //
-//  Created by syamily.mt on 10/01/25.
+//  Created by syamily.mt on 16/01/25.
 //
 
 import Foundation
 
-
-struct City: Codable, Identifiable, Hashable {
+struct CityModel: Codable, Identifiable, Hashable {
     var id = UUID()
     let city: String
     let country: String
@@ -41,10 +40,3 @@ struct City: Codable, Identifiable, Hashable {
     }
     
 }
-
-struct StateModel: Identifiable {
-    let id = UUID()
-    let name: String
-    let cities: [City]
-}
-

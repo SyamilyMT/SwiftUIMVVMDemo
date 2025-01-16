@@ -8,26 +8,26 @@
 import Foundation
 
 class CityItemViewModel: ObservableObject, Identifiable {
-    private var city: City
+    private var cityModel: CityModel
     
-    init(city: City) {
-        self.city = city
+    init(cityModel: CityModel) {
+        self.cityModel = cityModel
     }
     
     var cityName: String {
-        return city.city
+        return cityModel.city
     }
     
     var population: String {
-        return city.population
+        return cityModel.population
     }
     
     var latitude: String {
-        return city.latitude
+        return cityModel.latitude
     }
     
     var longitude: String {
-        return city.longitude
+        return cityModel.longitude
     }
 
 }

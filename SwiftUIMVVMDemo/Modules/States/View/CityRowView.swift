@@ -1,20 +1,19 @@
 //
-//  CityRow.swift
+//  CityRowView.swift
 //  SwiftUIMVVMDemo
 //
-//  Created by syamily.mt on 10/01/25.
+//  Created by syamily.mt on 16/01/25.
 //
 
 import SwiftUI
 
-struct CityRow: View {
-    
+struct CityRowView: View {
     @StateObject var viewModel: CityItemViewModel
 
     var body: some View {
         VStack {
             Text(viewModel.cityName)
-                .frame(maxWidth: .infinity, alignment: .leading) 
+                .frame(maxWidth: .infinity, alignment: .leading)
 
             Text("\(CityRowConstants.population) \(viewModel.population)")
                 .frame(maxWidth: .infinity, alignment: .leading)
@@ -31,3 +30,5 @@ struct CityRow: View {
         }.accessibilityElement(children: .combine)
     }
 }
+
+
